@@ -18,3 +18,10 @@ int binExpo(int a,int b){
 int modmulinv(int a){
     return binExpo(a,mod-2);
 }
+
+void getfact() {
+    fact[0]=1;
+    for(int i=1;i<=100001;i++){
+        fact[i]=modmul(fact[i-1],i);
+    }
+}
