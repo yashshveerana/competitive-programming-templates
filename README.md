@@ -4,6 +4,7 @@ This repository contains useful C++ templates for competitive programming and sy
 
 ## Contents
 
+- `math.cpp` – Useful and frequently used math functions.
 - `template.cpp` – Fast I/O and STL setup
 - `segment_tree.cpp` – Segment Tree template
 - `graph.cpp` – Graph traversal (DFS/BFS)
